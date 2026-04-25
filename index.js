@@ -9,7 +9,6 @@ for (let i = 1; i <= 100; i++) {
   else result.push(i.toString());
 }
 
-// Horizontal output
 fs.writeFileSync("output.json", JSON.stringify(result));
 
 console.log("output.json created!");
